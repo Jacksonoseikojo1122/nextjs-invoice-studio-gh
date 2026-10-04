@@ -2,6 +2,8 @@
 
 [![CI](https://github.com/Jacksonoseikojo1122/nextjs-invoice-studio-gh/actions/workflows/ci.yml/badge.svg)](https://github.com/Jacksonoseikojo1122/nextjs-invoice-studio-gh/actions/workflows/ci.yml)
 
+**Live demo: [invoice-studio-gh.vercel.app](https://invoice-studio-gh.vercel.app)**
+
 A small, client-side invoice builder for businesses that bill in **Ghana cedis (GHS)** or **US dollars (USD)**. Fill in seller and client details and line items, add an optional discount and your own tax lines, watch the totals update as you type, and download a clean A4 PDF.
 
 There is no backend: the invoice never leaves the browser. The draft is kept in `localStorage` so a page refresh does not lose work.
