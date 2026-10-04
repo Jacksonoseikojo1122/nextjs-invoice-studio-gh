@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "ES2022",
     "lib": [
       "dom",
       "dom.iterable",
@@ -16,14 +16,23 @@
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "incremental": true
   },
   "include": [
     "next-env.d.ts",
     "app/**/*.ts",
     "app/**/*.tsx",
     "components/**/*.tsx",
-    "lib/**/*.ts"
+    "lib/**/*.ts",
+    "tests/**/*.ts",
+    ".next/types/**/*.ts",
+    "vitest.config.mts"
   ],
   "exclude": [
     "node_modules"
